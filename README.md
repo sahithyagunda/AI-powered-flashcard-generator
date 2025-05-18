@@ -7,7 +7,31 @@ I created a tool that takes any PDF, Word doc, or text file, extracts the conten
 
 Why did I build this? I wanted to help students and myself save time and focus on understanding, not memorizing. Whether you’re preparing for exams or learning new skills, this kind of tool can change the game.
 
-Over the next few weeks, I’ll break it down step-by-step in a series—starting with the basics of reading files, diving into AI models like BART and T5, and ending with a full app. My goal? To help you to build something similar and show what’s possible with AI and Python.
+Tech Stack
+
+🔹 Frontend
+
+Streamlit (UI framework)
+
+Custom HTML & CSS (for flashcard animations)
+
+🔹 Backend
+
+Python
+
+Transformers (Hugging Face)
+
+facebook/bart-large-cnn (Summarization)
+
+valhalla/t5-base-qg-hl (Question Generation)
+
+spaCy (NER using en_core_web_sm)
+
+🔹 File Handling
+
+PyMuPDF (fitz) – PDF text extraction
+
+python-docx – DOCX text extraction
 
 Here’s the app in action! 👇
 
